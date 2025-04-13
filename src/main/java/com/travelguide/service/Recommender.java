@@ -1,5 +1,5 @@
-package src.main.java.com.travelguide.service;
+package com.travelguide.service;
 
 public class Recommender {
-    
+    // Placeholder for ML-based or advanced logic
 }

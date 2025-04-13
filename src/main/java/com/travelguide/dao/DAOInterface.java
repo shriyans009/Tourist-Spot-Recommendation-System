@@ -1,5 +1,8 @@
-package src.main.java.com.travelguide.dao;
+package com.travelguide.dao;
 
-public class DAOInterface {
-    
+import com.travelguide.model.TouristSpot;
+import java.util.List;
+
+public interface DAOInterface {
+    List<TouristSpot> getSpotsByCity(String city);
 }

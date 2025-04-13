@@ -1,5 +1,7 @@
-package src.main.java.com.travelguide.model;
+package com.travelguide.model;
 
-public class AdventureSpot {
-    
+public class AdventureSpot extends TouristSpot {
+    public AdventureSpot(int id, String name, String city) {
+        super(id, name, "Adventure", city);
+    }
 }
